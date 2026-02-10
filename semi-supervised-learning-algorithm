@@ -1,0 +1,8 @@
+## Semi-Supervised Learning Algorithm (Self-Training)
+
+1. Train model using labeled data
+2. Predict labels for unlabeled data
+3. Select high-confidence predictions
+4. Add them to labeled dataset
+5. Retrain model
+6. Repeat until stopping condition
